@@ -4,7 +4,7 @@ import Header from './components/Header'
 import Global from './styles/global'
 import { theme } from './styles/theme'
 import Footer from './components/Footer/index'
-import { AppContainer } from './styles/app-styles'
+import { AppContainer, Button, TextContainer } from './styles/app-styles'
 
 export const App: FC = () => (
   <ThemeProvider theme={theme}>
@@ -14,6 +14,12 @@ export const App: FC = () => (
       <br />
       <br />
       <br />
+      <br />
+      <TextContainer>
+        Aprenda piano e harmonia musical online ou presencial através de meu método prático e
+        personalizado, que atende desde iniciantes a pianistas avançados.
+        <Button>INSCREVA-SE JÁ</Button>
+      </TextContainer>
       <Global />
       <Footer />
     </AppContainer>
